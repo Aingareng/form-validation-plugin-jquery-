@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <section class="p-[10px]">
+    <form id="register-form"
+      class="mx-auto my-[10%] shadow-md shadow-slate-500 p-[20px] box-border rounded-md sm:w-[80%] md:w-[68%] lg:w-[50%] xl:w-[50%] 2xl:w-[50%]">
+      <div class="mx-auto text-center mb-[10px]">
+        <h1 class="uppercase font-sans font-bold text-teal-500">register</h1>
+        <p class="font-semibold text-teal-500">Fill out this form</p>
+      </div>
+      <div class="flex justify-between my-[10px]">
+        <input class="first-name-input w-[40%]  focus:outline-none bg-slate-200 py-[3px] px-[3px] rounded-md"
+          type="text" placeholder="First Name">
+        <input class="last-name-input w-[40%] focus:outline-none bg-slate-200 py-[3px] px-[3px] rounded-md" type="text"
+          placeholder="Last Name">
+      </div>
+      <input
+        class="user-name-input focus:outline-none  block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="text" placeholder="User Name">
+      <input
+        class="email-address-input focus:outline-none block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="email" placeholder="E-mail Address">
+      <input class="password-input focus:outline-none block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="password" placeholder="Password">
+      <input
+        class="block my-[10px] w-full py-[6px] px-[10px] rounded-full bg-teal-500 duration-200 ease-in hover:bg-opacity-50 hover:cursor-pointer"
+        type="submit" value="Create Account">
+
+      <p id="btn-login" class="py-[3px] underline underline-offset-3 text-sky-500 text-center"><a href="#">Login</a></p>
+    </form>
+
+    <form id="login-form"
+      class=" mx-auto my-[10%] shadow-md shadow-slate-500 p-[20px] box-border rounded-md sm:w-[80%] md:w-[68%] lg:w-[50%] xl:w-[50%] 2xl:w-[27%] 2xl:h-[50vh]">
+      <div class="mx-auto text-center mb-[20px]">
+        <h1 class="uppercase font-sans font-bold text-teal-500">Login</h1>
+        <hr class="border-teal-500 border-1 mt-2">
+      </div>
+      <input class="user-name focus:outline-none  block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="text" placeholder="User Name">
+      <input class="email-address focus:outline-none block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="email" placeholder="E-mail Address">
+      <input class="password focus:outline-none block my-[10px] py-[3px] px-[3px] rounded-md w-full bg-slate-200"
+        type="password" placeholder="Password">
+      <input
+        class="block my-[10px] text-white font-semibold w-full py-[6px] px-[10px] rounded-full bg-teal-500 duration-200 ease-in hover:bg-opacity-50 hover:cursor-pointer"
+        type="submit" value="Login">
+
+      <p id="btn-regis" class="py-[3px] underline underline-offset-3 text-sky-500 text-center"><a href="#">Register</a>
+      </p>
+    </form>
+  </section>
+
+  <script src="/src/js/jquery-3.6.0.min.js"></script>
+  <script src="/src/js/main.js"></script>
+</body>
+
+</html>
